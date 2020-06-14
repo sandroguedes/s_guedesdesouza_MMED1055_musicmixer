@@ -1,0 +1,23 @@
+[DEV NOTES]
+
+Concept: Music Mixer Application for Web
+
+Create a UI where a center piece fits in between two columns of draggable icons, each representing a soundtrack, that can be dropped into a central dropbox. Onde dropped, a slot within the dropbox needs to display the same icon, only sized down to fit it (Might try to fiddle with viewports to achieve that without needing to copies of each icon). Besides the main body, there should also be a header with a logo and three buttons: PLAY, STOP and RESET.
+
+Features breakdown:
+
+- Header with SVG logo and buttons for PLAY, STOP and RESET
+- STOP button pauses the soundtracks
+- PLAY button resumes the soundtracks
+- RESET button resets all soundtracks to 00:00, can be used to sync the sounds' times
+- Central piece with an animated SVG drawing
+- 8 SVG icons that can be dragged and dropped;
+- 8 slots distributed in two columns for the icons
+- 8 smaller slots on the central dropbox to fit dropped icons
+- Each icon, once dropped, plays a soundtrack
+- If 2 or more icons are dropped, soundtracks play simuntaneously, mixing the sounds
+- Footer with generic copyright text
+
+Aesthetics breakdown:
+
+The application is heavily inspired by "synthwave" aesthetics, thus its UI is designed to try to emulate that. This means bright borders atop box-shadows that emulate neon glows, translucent backgrounds, lots of dark blues and purples, distorted glowing grids and a juxtaposition of agressive italisized and round sans-serif typefaces.
