@@ -1,8 +1,17 @@
+body
+{
+background-image:url(../images/Placeholder_Background_01.png);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+}
+
 .wrapper
 {
 display:flex;
 flex-direction:column;
-justify-content:space-around;
+justify-content:space-between;
 height:100vh;
 }
 
@@ -14,19 +23,22 @@ display:none;
 .header
 {
 display:flex;
-width:980px;
+width:1180px;
 margin-left:auto;
 margin-right:auto;
+margin-top:15px;
 margin-bottom:10px;
 padding:10px;
+background-color:rgba(30, 0, 10, 0.7);
 border-radius:10px;
-border:1px solid green;
+border:3px solid rgba(255, 90, 255);
+box-shadow:0px 0px 25px rgba(255, 50, 255);
 }
 
 .logo
 {
-min-height:148px;
-min-width:200px;
+min-height:120px;
+min-width:500px;
 border:1px solid red;
 }
 
@@ -35,41 +47,51 @@ border:1px solid red;
 display:flex;
 width:100%;
 justify-content:flex-end;
-margin-top:110px;
-border:1px dashed blue;
+margin-top:90px;
 }
 
 .list
 {
 display:flex;
-border:1px dotted green;
 }
 
 .navitem
 {
 text-decoration:none;
-font-family:sans-serif;
-font-size:20px;
 text-align:center;
-padding:10px;
-margin-left:20px;
-width:80px;
-border-radius:5px;
-border:1px solid red;
+padding:8px;
+margin-left:30px;
+width:90px;
+font-family:"Fredoka One", sans-serif;
+color:white;
+font-size:18px;
+letter-spacing:2px;
+border-radius:10px;
+border:2px solid rgba(220, 80, 220);
+background-color:rgba(50, 0, 90);
+transition-duration:0.2s;
+}
+
+.navitem:hover
+{
+box-shadow:0px 0px 15px rgba(255, 50, 255);
+background-color:rgba(80, 0, 120);
 }
 
 .body
 {
 display:flex;
 justify-content:space-between;
-width:980px;
+width:1180px;
 margin-top:10px;
 margin-left:auto;
 margin-right:auto;
 margin-bottom:10px;
 padding:10px;
+background-color:rgba(30, 0, 10, 0.7);
 border-radius:10px;
-border:1px solid green;
+border:3px solid rgba(255, 90, 255);
+box-shadow:0px 0px 25px rgba(255, 50, 255);
 }
 
 .samplpearea
@@ -80,7 +102,6 @@ flex-grow:1;
 justify-content:space-between;
 padding:10px;
 border-radius:5px;
-border:1px solid red;
 }
 
 .icon
@@ -96,7 +117,21 @@ margin-top:10px;
 margin-bottom:10px;
 padding:10px;
 text-align:center;
-border:1px dashed blue;
+border-radius:30px;
+border:3px solid rgba(220, 80, 220);
+background-color:rgba(50, 0, 90);
+}
+
+.icon p
+{
+font-family:"Fredoka One", sans-serif;
+color:white;
+font-size:20px;
+}
+
+.icon:hover
+{
+background-color:rgba(70, 0, 110);
 }
 
 .player
@@ -106,16 +141,19 @@ flex-direction:column;
 flex-grow:10;
 padding:10px;
 border-radius:5px;
-border:1px solid red;
+margin-right:5px;
+margin-left:5px;
+background-color: rgba(10, 0, 25, 0.9);
 }
 
 .playertitle
 {
 text-align:center;
-font-size:20px;
-font-family:sans-serif;
+font-size:50px;
+font-family:"Permanent Marker", sans-serif;
+color:rgba(255, 190, 255);
+text-shadow:0px 0px 20px rgba(255, 30, 255);
 margin:10px;
-border:1px solid red;
 }
 
 .playerbox
@@ -132,7 +170,7 @@ border:1px solid red;
 {
 width:100%;
 min-height:100px;
-flex-grow:5;
+flex-grow:7;
 border:1px solid red;
 }
 
@@ -143,42 +181,63 @@ flex-direction:column;
 justify-content:center;
 flex-grow:1;
 width:100%;
-min-height:100px;
-border:1px solid red;
 }
 
 .dropbox
 {
 display:flex;
 flex-direction:row;
-justify-content:space-around;
+justify-content:space-between;
 margin-left:auto;
 margin-right:auto;
-width:80%;
-border:1px dotted green;
+width:95%;
+border-radius:15px;
+background-color:rgba(0, 0, 5);
 }
 
 .dropicon
 {
 display:flex;
 flex-direction:column;
-width:50px;
-height:50px;
+width:60px;
+height:60px;
 margin:10px;
 justify-content:center;
 text-align:center;
-border:1px dashed blue;
+border-radius:10px;
+border:2px solid rgba(150, 90, 150);
+background-color:rgba(30, 0, 60);
+}
+
+.dropicon p
+{
+font-family:"Fredoka One", sans-serif;
+color:white;
+font-size:10px;
 }
 
 .footer
 {
 display:flex;
-width:980px;
-min-height:80px;
+justify-content:center;
+width:1180px;
+min-height:50px;
 margin-top:10px;
+margin-bottom:20px;
 margin-left:auto;
 margin-right:auto;
 padding:10px;
+background-color:rgba(30, 0, 10, 0.7);
 border-radius:10px;
-border:1px solid green;
+border:3px solid rgba(255, 90, 255);
+box-shadow:0px 0px 25px rgba(255, 50, 255);
+}
+
+.footer p
+{
+font-size: 15px;
+font-family:sans-serif;
+font-weight:normal;
+text-decoration:none;
+color:white;
 }
