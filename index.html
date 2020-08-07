@@ -20,7 +20,7 @@
 						<ul class="list">
 							<ol class="navitem">PLAY</ol>
 							<ol class="navitem">STOP</ol>
-							<ol class="navitem">RESET</ol>
+							<ol class="navitem resetbtn">RESET</ol>
 						</ul>
 					</nav>
 				</section>
@@ -29,19 +29,19 @@
 			<main>
 				<section class="body">
 					<h1 class="hidden">Main Section</h1>
-					<section class="samplpearea">
+					<section class="iconbox">
 						<h1 class="hidden">Sample Area</h1>
 						<div class="icon">
-							<p>ICON</p>
+							<img id="icon01" class="icon_image" src="images/icon01.png" draggable="true">
 						</div>
 						<div class="icon">
-							<p>ICON</p>
+							<img id="icon02" class="icon_image" src="images/icon02.png" draggable="true">
 						</div>
 						<div class="icon">
-							<p>ICON</p>
+							<img id="icon03" class="icon_image" src="images/icon03.png" draggable="true">
 						</div>
 						<div class="icon">
-							<p>ICON</p>
+							<img id="icon04" class="icon_image" src="images/icon04.png" draggable="true">
 						</div>			
 					</section>
 					
@@ -53,60 +53,53 @@
 						<div class="playerbox">
 							<div class="radio">
 							</div>
-							<div class="dock">
+							<div class="icon_board">
 								<div class="dropbox">
-									<div class="dropicon">
-										<p>ICON</p>
+									<div class="drop_zone">
 									</div>
-									<div class="dropicon">
-										<p>ICON</p>
+									<div class="drop_zone">
 									</div>
-									<div class="dropicon">
-										<p>ICON</p>
+									<div class="drop_zone">
 									</div>
-									<div class="dropicon">
-										<p>ICON</p>
+									<div class="drop_zone">
 									</div>
-									<div class="dropicon">
-										<p>ICON</p>
+									<div class="drop_zone">
 									</div>
-									<div class="dropicon">
-										<p>ICON</p>
+									<div class="drop_zone">
 									</div>
-									<div class="dropicon">
-										<p>ICON</p>
+									<div class="drop_zone">
 									</div>
-									<div class="dropicon">
-										<p>ICON</p>
+									<div class="drop_zone">
 									</div>
 								</div>
 							</div>
 						</div>
 					</section>
 					
-					<section class="samplpearea">
+					<section class="iconbox">
 						<h1 class="hidden">Sample Area</h1>
-						<div class="samplebox">
-							<div class="icon">
-								<p>ICON</p>
-							</div>
+						<div class="icon">
+							<img id="icon05" class="icon_image" src="images/icon05.png" draggable="true">
 						</div>
-						<div class="samplebox">
-							<div class="icon">
-								<p>ICON</p>
-							</div>
+						<div class="icon">
+							<img id="icon06" class="icon_image" src="images/icon06.png" draggable="true">
 						</div>
-						<div class="samplebox">
-							<div class="icon">
-								<p>ICON</p>
-							</div>
+						<div class="icon">
+							<img id="icon07" class="icon_image" src="images/icon07.png" draggable="true">
 						</div>
-						<div class="samplebox">
-							<div class="icon">
-								<p>ICON</p>
-							</div>
+						<div class="icon">
+							<img id="icon08" class="icon_image" src="images/icon08.png" draggable="true">
 						</div>				
 					</section>
+
+					<audio loop data-key="icon01" class="audio_loops" src="tracks/Bell2.mp3"></audio>
+					<audio loop data-key="icon02" class="audio_loops" src="tracks/Cinematic1.mp3"></audio>
+					<audio loop data-key="icon03" class="audio_loops" src="tracks/Harp1.mp3"></audio>
+					<audio loop data-key="icon04" class="audio_loops" src="tracks/Morse.mp3"></audio>
+					<audio loop data-key="icon05" class="audio_loops" src="tracks/Percussion01.wav"></audio>
+					<audio loop data-key="icon06" class="audio_loops" src="tracks/Percussion02.wav"></audio>
+					<audio loop data-key="icon07" class="audio_loops" src="tracks/Sample_Synth_03.mp3"></audio>
+					<audio loop data-key="icon08" class="audio_loops" src="tracks/Tech01.wav"></audio>
 				</section>
 			</main>
 
@@ -117,4 +110,5 @@
 			</footer>
 		</div>
 	</body>
+	<script src="js/main.js"></script>
 </html>
